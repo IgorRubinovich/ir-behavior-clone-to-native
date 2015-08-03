@@ -23,10 +23,6 @@ It is the responsibility of the host element developer to update `.value`. The b
 the element author wants to achieve. This stands for the initialization (ready/attached) and any later phases 
 (changes in component's internal state).
 
-## Usage
-- Simple: Assign to `.value` when host's "output" value changes and don't worry about the rest.
-- Advanced: Observe `.value` to update host's internal state.
-
 ## To-do
 - Demo
 - I'll appreciate some feedback on whether the **name** of `.value` property on the host should be customizeable.
