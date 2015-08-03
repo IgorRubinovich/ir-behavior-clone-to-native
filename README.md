@@ -14,8 +14,14 @@ an element that feels totally like any input element.
 - A two-way bound `.value` property is added to the host. When the host updates `.value`.
 it is reflected to the hidden native input element's `value` attribute.
 
-Note that `.value` of the host must be initialized with preset values if there are any during ready/attached callbacks, 
-otherwise the hidden element will have an empty  value and be  submitted as such.
+## Usage
+- Simple: Assign to `.value` when host's "output" value changes and don't worry about the rest.
+- Advanced: Observe `.value` to update host's internal state.
+
+**Note:**
+It is the responsibility of the host element developer to update `.value`. The behavior has no built-in magic to know what
+the element author wants to achieve. This stands for the initialization (ready/attached) and any later phases 
+(changes in component's internal state).
 
 ## Usage
 - Simple: Assign to `.value` when host's "output" value changes and don't worry about the rest.
