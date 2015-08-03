@@ -21,7 +21,7 @@ otherwise the hidden element will have an empty  value and be  submitted as such
 - Simple: Assign to `.value` when host's "output" value changes and don't worry about the rest.
 - Advanced: Observe `.value` to update host's internal state.
 
-## To-do:
+## To-do
 - Demo
 - I'll appreciate some feedback on whether the **name** of `.value` property on the host should be customizeable.
 A gut tells me it could sometimes interfere with other elements' `.value`, but haven't (yet) met a usecase that would
