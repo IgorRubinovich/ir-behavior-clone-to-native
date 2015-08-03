@@ -24,7 +24,7 @@ otherwise the hidden element will have an empty  value and be  submitted as such
 ## To-do
 - Demo
 - I'll appreciate some feedback on whether the **name** of `.value` property on the host should be customizeable.
-A gut tells me it could sometimes interfere with other elements' `.value`, but haven't (yet) met a usecase that would
+A gut feeling is telling me it could sometimes interfere with other elements' `.value`, but haven't (yet) met a usecase that would
 justify this change.
 
 ## Where it is used:
