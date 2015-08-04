@@ -2,7 +2,9 @@
 
 **Polymer 1.0 behavior to enable custom web component submission as a field in a native html form.**
 
-You might have been puzzled about how exactly a non-native component may be submitted as part of a static form. You might also be aware that it's not possibble to append child elements to input elements. Thus it's not possible to enrich an input with shadow dom.
+You might have been puzzled about how exactly a non-native component may be submitted as part of a static form. 
+You might also be aware that it's not possibble to append child elements to input elements. 
+Thus it's not possible to enrich an input with shadow dom.
 
 ir-reflect-to-native-behavior solves this by adding a hidden native input to the form it belongs to, and reflecting its 
 `.value` property to the hidden field. The name of the hidden input field is determined by the host's .name property. 
