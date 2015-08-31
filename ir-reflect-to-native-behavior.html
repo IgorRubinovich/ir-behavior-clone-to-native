@@ -63,6 +63,7 @@ ir.ReflectToNativeBehavior = {
 				this._nativeClone.setAttribute("type", "hidden");
 				this._nativeClone.setAttribute("name", this.name);
 				this.name = "";
+				this.removeAttribute(name, "");
 				
 				// Polymer.dom(this).appendChild(this._nativeClone);
 				this.appendChild(this._nativeClone);
