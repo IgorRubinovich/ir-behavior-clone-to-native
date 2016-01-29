@@ -66,8 +66,8 @@ ir.ReflectToNativeBehavior = {
 				this.removeAttribute(name, "");
 				
 				//Polymer.dom(this).appendChild(this._nativeClone);
-				this.appendChild(this._nativeClone);
-				//this.parentNode.appendchild(this._nativeClone); // the two above variants stopped working since polymer 1.2.3
+				//this.appendChild(this._nativeClone);
+				Polymer.dom(this).parentNode.appendChild(this._nativeClone); // the two above variants stopped working since polymer 1.2.3
 			}
 		}
 		
