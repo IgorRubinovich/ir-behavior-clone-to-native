@@ -65,8 +65,8 @@ ir.ReflectToNativeBehavior = {
 				this.name = "";
 				this.removeAttribute(name, "");
 				
-				// Polymer.dom(this).appendChild(this._nativeClone);
-				this.appendChild(this._nativeClone);
+				Polymer.dom(this).appendChild(this._nativeClone);
+				// this.appendChild(this._nativeClone);
 			}
 		}
 		
